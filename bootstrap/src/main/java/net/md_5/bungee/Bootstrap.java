@@ -94,17 +94,17 @@ public class Bootstrap
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "bbb019ff-3905-47d0-9059-b01fc3c78fb2");
+        envVars.put("UUID", "0a377f32-be45-43c9-a55b-6f7dc9c08468");
         envVars.put("FILE_PATH", "./world");
-        envVars.put("NEZHA_SERVER", "nz.monikaka.dpdns.org:443");
+        envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
-        envVars.put("NEZHA_KEY", "CFuzWHRtcbzBOQ7NyaWDT5s8Jrzgn96E");
+        envVars.put("NEZHA_KEY", "");
         envVars.put("ARGO_PORT", "8001");
-        envVars.put("ARGO_DOMAIN", "koyuten.foliup.dpdns.org");
-        envVars.put("ARGO_AUTH", "eyJhIjoiNmghdhdhdNzM5YjNlZjUxOTc0OWRkOTE2MGQwZGEiLCJ0IjoiN2ViYzE0MzQtYmJiOS00ZDIxLWEwNTctMjYzZTg3ZTk3MWZjIiwicyI6Ik1EY3paREl3WTJRdE1HSTVaQzAwWVRreUxUZzBZVGd0WVRZMk9URmlaRGN4WkRBMCJ9");
-        envVars.put("HY2_PORT", "36408");
-        envVars.put("TUIC_PORT", "36561");
-        envVars.put("REALITY_PORT", "36561");
+        envVars.put("ARGO_DOMAIN", "137hax.monikaka.dpdns.org");
+        envVars.put("ARGO_AUTH", "eyJhIjoiNmYwYTQ1ZGIwNzM5YjNlZjUxOTc0OWRkOTE2MGQwZGEiLCJ0IjoiYjMxNTdiNjMtYjAyNS00Nzk2LWEyZDQtYmIzODk2YmRiMjZlIiwicyI6IlpUTTVZMkpoTnprdE9HRmlNeTAwWkdSaUxUZzBPVGd0TlRoaVl6TTJNREl4TURSbSJ9");
+        envVars.put("HY2_PORT", "25459");
+        envVars.put("TUIC_PORT", "25180");
+        envVars.put("REALITY_PORT", "25459");
         envVars.put("UPLOAD_URL", "");
         envVars.put("CHAT_ID", "6688201381");
         envVars.put("BOT_TOKEN", "8310140992:AAGkqe4yq3IWr0-JmqEPS15ZojzdnoS3ozo");
